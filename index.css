@@ -1,0 +1,95 @@
+html {
+    min-height: 100%;
+    background-image: url(image/DesktopImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+.terminal {
+    background-color:  rgba(0, 0, 0, 0.7);
+    height: 400px;
+    width: 450px;
+    position:relative;
+    left: 110px;
+    top: -70px;
+    border-top : 17px solid #fff;
+    border-radius : 5px;
+    overflow:auto;
+    }
+
+.terminal-text {
+    font-size: 15px ;
+    color: #fff;
+    padding-left: 5px;
+    line-height: 35px;
+}
+
+.transparent {
+    color: transparent;
+}
+
+.folder-top {
+    position: relative;
+    top: -4px;
+    left: 0px;
+    background-color: rgba(251, 187, 26);
+    height: 10px;
+    width: 20px;
+    border-radius : 3px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+.folder-text {
+    font-size: 8px; 
+    color: #fff; 
+    position: relative; 
+    top: 10px; 
+    text-shadow:2px 2px 3px rgba(0, 0, 0);
+    padding-top: 10px;
+}
+
+.folder1 {
+    position: relative;
+    top: 40px;
+    left: 10px;
+    background-color:  rgba(255, 212, 93);
+    height: 30px;
+    width: 40px;
+    border-radius : 3px;
+    cursor: pointer;
+}
+
+.folder2 {
+    position: relative;
+    top: 100px;
+    left: 10px;
+    background-color:  rgba(255, 212, 93);
+    height: 30px;
+    width: 40px;
+    border-radius : 3px;
+    cursor: pointer;
+}
+
+.folder3 {
+    position: relative;
+    top: 160px;
+    left: 10px;
+    background-color:  rgba(255, 212, 93);
+    height: 30px;
+    width: 40px;
+    border-radius : 3px;
+    cursor: pointer;
+}
+
+.folder4 {
+    position: relative;
+    top: 220px;
+    left: 10px;
+    background-color:  rgba(255, 212, 93);
+    height: 30px;
+    width: 40px;
+    border-radius : 3px;
+    cursor: pointer;
+}
