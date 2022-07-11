@@ -1,4 +1,3 @@
-//ターミナル内に一行ずつ出力
 let str = [
        "大城礎良 (おおしろ　そら)<br>",
        "沖縄県<br>",
@@ -16,6 +15,7 @@ let str = [
        "得意なスポーツ : バドミントン<br>"
       ];
 
+//ターミナル内に一行ずつ出力
 count = 0;
 function setTextLine(){
 	if (str.length >= count) {
@@ -28,13 +28,13 @@ function setTextLine(){
 	    txt.innerHTML = text;
         count++;
 
-	    setTimeout("setTextLine()",1500);
+	    setTimeout(setTextLine,1500);
     }
 }
 setTextLine();
 
 //カーソルの点滅
-const cursor = () => {
+function cursor(){
     target = document.getElementById("cursor");
     if (target.className == "") {
         target.className = "transparent";
@@ -63,12 +63,12 @@ function buttonClick(num){
     }
 }
 
+// モーダルを非表示
 const closeBtn = document.getElementById('modal-close');
-closeBtn.addEventListener('click', function() {
+closeBtn.addEventListener('click', function(){
     modal.style.display = 'none';
 });
-
-window.addEventListener('click', function(e) {
+window.addEventListener('click', function(e){
     if (e.target == modal) {
       modal.style.display = 'none';
     }
