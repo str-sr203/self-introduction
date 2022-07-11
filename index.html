@@ -5,44 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="stylesheet" href="index.css">
-
+      
     <title>自己紹介ページ</title>
 </head>
 <body>
 
-    <!-- フォルダーアイコン -->
-    <div class="folder1" onclick="buttonClick()">
-        <div class="folder-top"></div>
-        <p class="folder-text">MySQL</p>
-    </div>
+    <div class="container">
 
-    <div class="folder2" onclick="buttonClick()">
-        <div class="folder-top"></div>
-        <p class="folder-text">SQLite</p>
-    </div>
+        <!-- フォルダーアイコン -->
+        <div class="folder1" onclick="buttonClick(1)">
+            <div class="folder-top"></div>
+            <p class="folder-text">Sea</p>
+        </div>
 
-    <div class="folder3" onclick="buttonClick()">
-        <div class="folder-top"></div>
-        <p class="folder-text">PostgreSQL</p>
-    </div>
+        <div class="folder2" onclick="buttonClick(2)">
+            <div class="folder-top"></div>
+            <p class="folder-text">Sea2</p>
+        </div>
 
-    <div class="folder4" onclick="buttonClick()">
-        <div class="folder-top"></div>
-        <p class="folder-text">MariaDB</p>
-    </div>
+        <div class="folder3" onclick="buttonClick(3)">
+            <div class="folder-top"></div>
+            <p class="folder-text">Sea3</p>
+        </div>
 
-    <!-- ターミナル -->
-    <div class="terminal">
-        <p class="terminal-text">
-            Microsoft Windows [Version 10.0.32100.123]<br>
-            <p class="terminal-text" id="test"></p>
+        <div class="folder4" onclick="buttonClick(4)">
+            <div class="folder-top"></div>
+            <p class="folder-text">Watarefall</p>
+        </div>
+
+        <div class="folder5" onclick="buttonClick(5)">
+            <div class="folder-top"></div>
+            <p class="folder-text">Eisa</p>
+        </div>
+
+        <!-- ターミナル -->
+        <div class="terminal">
             <p class="terminal-text">
-                C:¥Users¥unknown><span id="cursor">|</span>
+                Microsoft Windows [Version 10.0.32100.123]<br>
+                <p class="terminal-text" id="test"></p>
+                <p class="terminal-text">
+                    C:¥Users¥unknown><span id="cursor">|</span>
+                </p>
             </p>
-        </p>
+        </div>
+
+        <!-- モーダル -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="modal-close" class="modal-close">X</span>
+                <img id="modal-image" class="modal-image" src="" alt="">
+            </div>
+        </div>
+
     </div>
-    
-    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="index.js"></script>    
 </body>
 </html>
