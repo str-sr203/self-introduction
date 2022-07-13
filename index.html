@@ -5,42 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
     <link rel="stylesheet" href="index.css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
       
     <title>自己紹介ページ</title>
 </head>
 <body>
 
-    <div class="container">
+    <div class="container" id="container">
         <!-- フォルダーアイコン -->
-        <div class="folder1" onclick="buttonClick(1)">
+        <div class="move folder1" onclick="buttonClick(1)">
             <div class="folder-top"></div>
             <p class="folder-text">MyPhoto</p>
         </div>
 
-        <div class="folder2" onclick="buttonClick(2)">
+        <div class="move folder2" onclick="buttonClick(2)">
             <div class="folder-top"></div>
-            <p class="folder-text">Sea</p>
+            <p class="folder-text">海</p>
         </div>
 
-        <div class="folder3" onclick="buttonClick(3)">
+        <div class="move folder3" onclick="buttonClick(3)">
             <div class="folder-top"></div>
-            <p class="folder-text">Sea2</p>
+            <p class="folder-text">海2</p>
         </div>
 
-        <div class="folder4" onclick="buttonClick(4)">
+        <div class="move folder4" onclick="buttonClick(4)">
             <div class="folder-top"></div>
-            <p class="folder-text">Watarefall</p>
+            <p class="folder-text">滝</p>
         </div>
 
-        <div class="folder5" onclick="buttonClick(5)">
+        <div class="move folder5" onclick="buttonClick(5)">
             <div class="folder-top"></div>
-            <p class="folder-text">Eisa</p>
+            <p class="folder-text">エイサー</p>
         </div>
 
         <!-- ターミナル -->
-        <div class="terminal">
+        <div class="move terminal">
             <p class="terminal-text">
                 Microsoft Windows [Version 10.0.32100.123]<br>
                 <p class="terminal-text" id="txt"></p>
@@ -59,6 +61,7 @@
         </div>
     </div>
     
-    <script type="text/javascript" src="index.js"></script>    
+    <script type="text/javascript" src="index.js"></script>
+
 </body>
 </html>
